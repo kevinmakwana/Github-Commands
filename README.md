@@ -21,6 +21,8 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git diff` | Shows the differences between the selected file in your local workspace and the file in the repository. |
+| `git blame` | Shows which author made changes to the selected file. |
 
 ### Branching & Merging
 
@@ -51,8 +53,21 @@ _A list of my commonly used Git commands_
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
+
+### Add or Change git origin
+
+| Command | Description |
+| ------- | ----------- |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+
+### Reset git code
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset | Reset current HEAD to the specified state |
+| `git reset --hard` | Reset current HEAD to the previous state |
+| `git reset --hard [commitId]` | Reset current HEAD to the specified commitId |
 
 ### Inspection & Comparison
 
