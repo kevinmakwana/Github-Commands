@@ -77,3 +77,4 @@ _A list of my commonly used Git commands_
 | `git log --oneline` | View git logs in single line |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git reflog` | View all changes even after hard reset or rebase  |
