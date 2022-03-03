@@ -65,7 +65,7 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git reset | Reset current HEAD to the specified state |
+| `git reset` | Reset current HEAD to the specified state |
 | `git reset --hard` | Reset current HEAD to the previous state |
 | `git reset --hard [commitId]` | Reset current HEAD to the specified commitId |
 
