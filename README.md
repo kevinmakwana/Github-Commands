@@ -38,7 +38,7 @@ _A list of my commonly used Git commands_
 | `git checkout [branch name]` | Switch to a branch |
 | `git checkout -` | Switch to the branch last checked out |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
-| `git checkout branch1 branch2 [file1.txt file2.txt]` | Add specific files only to branch 1 from branch2 |
+| `git checkout [branch name] [file1.txt file2.txt]` | Add specific files only to current branch(main branch) from given branch(feat branch) |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
